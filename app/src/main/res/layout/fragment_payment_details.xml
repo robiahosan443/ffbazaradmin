@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.paymentRequests.paymentDetails.PaymentDetailsFragment">
+
+    <TextView
+        android:id="@+id/tv_subcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="SubCategory :"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_diamond_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="Number of Diamond :"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_subcategory" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="Price :"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_diamond_num" />
+
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="User Balance :"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price" />
+
+    <TextView
+        android:id="@+id/tv_uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="UID :"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_balance" />
+
+
+    <TextView
+        android:id="@+id/tv_userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="USERID :"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_uid" />
+
+    <TextView
+        android:id="@+id/txt_subcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_regular"
+        android:text="SubCategory"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_subcategory"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_diamond_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_regular"
+        android:text="50"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="@+id/txt_subcategory"
+        app:layout_constraintTop_toBottomOf="@+id/txt_subcategory" />
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_regular"
+        android:text="150"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="@+id/txt_diamond_num"
+        app:layout_constraintTop_toBottomOf="@+id/txt_diamond_num" />
+
+    <TextView
+        android:id="@+id/txt_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_regular"
+        android:text="1503"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="@+id/txt_price"
+        app:layout_constraintTop_toBottomOf="@+id/txt_price" />
+
+    <TextView
+        android:id="@+id/txt_uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_regular"
+        android:text="sdgsfsd"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+
+        app:layout_constraintStart_toStartOf="@+id/txt_balance"
+        app:layout_constraintTop_toBottomOf="@+id/txt_balance" />
+
+
+    <EditText
+        android:id="@+id/edt_uid"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginHorizontal="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:fontFamily="@font/merriweather_light"
+        android:gravity="center"
+        android:hint="Enter Uid"
+        android:visibility="gone"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/tv_uid"
+        app:layout_constraintTop_toBottomOf="@+id/txt_balance" />
+
+    <TextView
+        android:id="@+id/txt_userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:fontFamily="@font/merriweather_regular"
+        android:text="3mrvYhsRBNh1LnFmtwUBGxHizdi1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_userId"
+        app:layout_constraintStart_toEndOf="@+id/tv_userId"
+        app:layout_constraintTop_toTopOf="@+id/tv_userId" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_userId">
+
+        <Spinner
+            android:id="@+id/sp_approveOrNot"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:entries="@array/approvedOrNot" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_proceed"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginHorizontal="@dimen/_55sdp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:backgroundTint="@color/layout_clr"
+        android:letterSpacing="0.0"
+        android:text="Proceed"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp"
+        app:cornerRadius="@dimen/_22sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

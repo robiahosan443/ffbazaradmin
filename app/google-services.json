@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "745241893480",
+    "firebase_url": "https://ff-game-bazar---topup-bd-default-rtdb.firebaseio.com",
+    "project_id": "ff-game-bazar---topup-bd",
+    "storage_bucket": "ff-game-bazar---topup-bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745241893480:android:4bbc7ab2d31ef507b439dd",
+        "android_client_info": {
+          "package_name": "com.app.ffbazar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745241893480-67pek3g0n148v6lt35u8r80dk69fs2av.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.ffbazar",
+            "certificate_hash": "50582b21fe421d983de7f4cc546b86da4250e447"
+          }
+        },
+        {
+          "client_id": "745241893480-77uc9k51idelqqbrokj5cl0r70oc2kui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.ffbazar",
+            "certificate_hash": "7264ddb64cd6dc93bf2c773be474e3f7ce7e9267"
+          }
+        },
+        {
+          "client_id": "745241893480-1df5uo04q635gv2qnk1udf3c94125dhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5VFgGaa5slht7itWT5jlWsiZur75Hq1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745241893480-1df5uo04q635gv2qnk1udf3c94125dhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745241893480:android:9b59af444faac44db439dd",
+        "android_client_info": {
+          "package_name": "com.app.ffgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745241893480-krtj9o59v16vg8huur5l0qsb5sok2rnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.ffgame",
+            "certificate_hash": "50582b21fe421d983de7f4cc546b86da4250e447"
+          }
+        },
+        {
+          "client_id": "745241893480-1df5uo04q635gv2qnk1udf3c94125dhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5VFgGaa5slht7itWT5jlWsiZur75Hq1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745241893480-1df5uo04q635gv2qnk1udf3c94125dhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745241893480:android:b818568ee3fbec4bb439dd",
+        "android_client_info": {
+          "package_name": "com.example.ffbazaradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745241893480-7cefjf98sgnmu01q457msd7ank1pe9q2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ffbazaradmin",
+            "certificate_hash": "7264ddb64cd6dc93bf2c773be474e3f7ce7e9267"
+          }
+        },
+        {
+          "client_id": "745241893480-1df5uo04q635gv2qnk1udf3c94125dhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5VFgGaa5slht7itWT5jlWsiZur75Hq1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745241893480-1df5uo04q635gv2qnk1udf3c94125dhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
